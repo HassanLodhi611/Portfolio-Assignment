@@ -153,7 +153,6 @@ section {
     letter-spacing: 1px;
 }
 
-/* TECH STACK */
 .tech-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
@@ -185,7 +184,7 @@ section {
     color: #E6F1F7;
 }
 
-/* PROJECTS */
+
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
@@ -228,8 +227,7 @@ section {
     margin-right: 1rem;
 }
 
-/* ABOUT */
-/* ABOUT – DETAILED */
+
 .about-container {
     max-width: 110rem;
     margin: auto;
@@ -318,7 +316,7 @@ section {
     max-width: 45rem;
 }
 
-/* Contact Form */
+
 .contact-form {
     background: #0F0F0F;
     padding: 4rem;
@@ -330,7 +328,7 @@ section {
     gap: 2.5rem;
 }
 
-/* Inputs */
+
 .input-group input,
 .input-group textarea {
     width: 100%;
@@ -344,14 +342,13 @@ section {
     transition: all 0.3s ease;
 }
 
-/* Focus Effect */
+
 .input-group input:focus,
 .input-group textarea:focus {
     border: 1px solid #4FD1FF;
     box-shadow: 0 0 15px rgba(79, 209, 255, 0.4);
 }
 
-/* Button */
 .contact-btn {
     padding: 1.5rem;
     font-size: 1.6rem;
@@ -370,7 +367,7 @@ section {
     transform: translateY(-3px);
 }
 
-/* FOOTER */
+
 .footer {
     background: #050505;
     border-top: 1px solid #121212;
@@ -440,7 +437,7 @@ section {
     font-size: 1.3rem;
 }
 
-/* RESPONSIVE */
+/* Responsive */
 @media (max-width: 900px) {
 
      .navbar {
